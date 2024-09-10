@@ -1,0 +1,40 @@
+.header {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color:  #2f884d;
+    color: white;
+    
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    size: 20px;
+}
+
+.header-title {
+    margin: 0;
+    padding-left: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight:bolder;
+    font-size: 60px;
+text-shadow: black;
+font-display:initial;
+text-decoration: double;
+
+}
+
+.logo {
+    width: 80px;
+    margin-left: 50px;
+}

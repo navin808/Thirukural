@@ -1,0 +1,12 @@
+.kural-lines-group {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.kural-line {
+    margin: 0;
+    font-style: italic;
+    font-size: large;
+    font-weight: 500;
+    color: #097260;
+}

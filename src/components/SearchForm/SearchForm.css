@@ -1,0 +1,35 @@
+.search-container {
+    display: flex;
+    margin: 0;
+}
+
+.search-container .search-input {
+    background-color: transparent;
+    border-radius: 0.25rem;
+    border: 1px solid white;
+    width: 150px;
+    padding: 6px;
+    color: white;
+    margin-right: 8px;
+}
+
+.search-container .search-button {
+    background-color: white;
+    color:  #2f884d;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 4px 10px;
+}
+
+.search-input:focus-visible {
+    outline: none;
+}
+.search-input::placeholder {
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .search-button {
+        display: none;
+    }
+}
